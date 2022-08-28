@@ -1,0 +1,26 @@
+.poster_fade {
+  background-image: linear-gradient(
+    to left,
+    black,
+    black,
+    #000000cf,
+    #000000cf,
+    #000000cf,
+    #00000066,
+    #00000022,
+    rgba(0, 0, 0, 0),
+  );
+  /* align-items: center; */
+}
+
+.button_style {
+    transition :ease-in;
+    cursor: pointer;
+    
+}
+.button_style:hover {
+  background-color: #000;
+                   /* opacity: 0.8; */
+    transform : scale(1.1); 
+  transition-duration: 0.5s;
+}
