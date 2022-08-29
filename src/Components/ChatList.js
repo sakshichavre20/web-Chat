@@ -20,7 +20,7 @@ function ChatList() {
           <input
             type="text"
             placeholder="search or a new chat"
-            style={{ background: "#323739", color: "#B1B3B5" }}
+            style={{ background: "transparent", color: "#B1B3B5" }}
           />
         </div>
       </div>

@@ -7,6 +7,7 @@ import PersonSearchIcon from "@mui/icons-material/PersonSearch";
 import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
 import LogoutTwoToneIcon from "@mui/icons-material/LogoutTwoTone";
 import ChatList from "../Components/ChatList";
+import ChatSection from "../Components/ChatSection";
 function Dashboard() {
   return (
     <div className="container">
@@ -56,7 +57,7 @@ function Dashboard() {
         <ChatList />
         {/*=======================CHAT LIST =================*/}
         {/*=======================CHAT SCETION =================*/}
-
+        <ChatSection />
         {/*=======================CHAT SCETION =================*/}
       </div>
     </div>
